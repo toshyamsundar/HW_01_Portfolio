@@ -66,6 +66,12 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.content h2 {
+    color:  rgb(11, 158, 158);
+    padding: 1.5rem;
+}
+
+
 .footer {
     background-color:  rgb(58, 56, 56);
     color: rgb(214, 213, 211);
