@@ -52,6 +52,7 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
     
     background-color: whitesmoke;
     border-style: solid;
@@ -66,11 +67,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.content h2 {
+.content h2, .contact h2 {
     color:  rgb(11, 158, 158);
     padding: 1.5rem;
 }
-
 
 .footer {
     background-color:  rgb(58, 56, 56);
@@ -92,4 +92,39 @@ h1 {
 
     /*position: fixed;
     bottom: 0;*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    color: rgb(58, 56, 56);
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5rem;
+
+}
+
+.textbox {
+    line-height: 1.5rem;
+    width: 50rem;
+    margin-bottom: 3rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+textarea {
+    width: 50rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    line-height: 2.5rem;
+    width: 7rem;
+    background-color:  rgb(11, 158, 158);
+    color: antiquewhite;
 }
