@@ -114,3 +114,11 @@ body > section > img {
     justify-content: center;
     align-items: center;
 }
+
+.square_1:hover,.square_2:hover {
+    opacity: 0.5;
+}
+
+.square_1 a,.square_2 a {
+    text-decoration: none;
+}
